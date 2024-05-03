@@ -8,14 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isDrawerOpen: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            ZStack {
+                HomeView()
+                
+                if isDrawerOpen {
+                    Color.black.opacity(0.2).ignoresSafeArea()
+                }
+                
+                NavigationDrawer(isOpen: isDrawerOpen)
+            }
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("", systemImage: "line.3.horizontal") {
+                        isDrawerOpen.toggle()
+                    }
+                }
+            }
+            .toolbar {
+                Button("", systemImage: "bell") {
+                    isDrawerOpen.toggle()
+                }
+            }
         }
-        .padding()
     }
 }
 

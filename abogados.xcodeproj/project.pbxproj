@@ -11,6 +11,20 @@
 		7EF127B22BE2C84C00698188 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127B12BE2C84C00698188 /* ContentView.swift */; };
 		7EF127B42BE2C84D00698188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF127B32BE2C84D00698188 /* Assets.xcassets */; };
 		7EF127B72BE2C84D00698188 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF127B62BE2C84D00698188 /* Preview Assets.xcassets */; };
+		7EF127C12BE2CA6B00698188 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127C02BE2CA6B00698188 /* HomeView.swift */; };
+		7EF127C32BE2CAA000698188 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127C22BE2CAA000698188 /* HomeTab.swift */; };
+		7EF127C52BE2CAAA00698188 /* MapsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127C42BE2CAAA00698188 /* MapsTab.swift */; };
+		7EF127C72BE2CAB200698188 /* AccountTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127C62BE2CAB200698188 /* AccountTab.swift */; };
+		7EF127CA2BE2CC5E00698188 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127C92BE2CC5E00698188 /* Color.swift */; };
+		7EF127CC2BE2CC8C00698188 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127CB2BE2CC8C00698188 /* Placeholder.swift */; };
+		7EF127CE2BE2CCA900698188 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127CD2BE2CCA900698188 /* ScreenSize.swift */; };
+		7EF127D02BE2CCDE00698188 /* Underline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127CF2BE2CCDE00698188 /* Underline.swift */; };
+		7EF127D22BE2CD2100698188 /* Buscar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127D12BE2CD2100698188 /* Buscar.swift */; };
+		7EF127D42BE2CFDF00698188 /* TarjetaCasos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127D32BE2CFDF00698188 /* TarjetaCasos.swift */; };
+		7EF127D62BE2D58700698188 /* ListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127D52BE2D58700698188 /* ListTile.swift */; };
+		7EF127D82BE2DAFC00698188 /* LocationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127D72BE2DAFC00698188 /* LocationUser.swift */; };
+		7EF127DB2BE2FC3C00698188 /* DrawerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127DA2BE2FC3C00698188 /* DrawerContent.swift */; };
+		7EF127DD2BE2FCAB00698188 /* NavigationDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF127DC2BE2FCAB00698188 /* NavigationDrawer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,21 @@
 		7EF127B12BE2C84C00698188 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7EF127B32BE2C84D00698188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EF127B62BE2C84D00698188 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EF127C02BE2CA6B00698188 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7EF127C22BE2CAA000698188 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		7EF127C42BE2CAAA00698188 /* MapsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsTab.swift; sourceTree = "<group>"; };
+		7EF127C62BE2CAB200698188 /* AccountTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTab.swift; sourceTree = "<group>"; };
+		7EF127C92BE2CC5E00698188 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7EF127CB2BE2CC8C00698188 /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
+		7EF127CD2BE2CCA900698188 /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		7EF127CF2BE2CCDE00698188 /* Underline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Underline.swift; sourceTree = "<group>"; };
+		7EF127D12BE2CD2100698188 /* Buscar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buscar.swift; sourceTree = "<group>"; };
+		7EF127D32BE2CFDF00698188 /* TarjetaCasos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetaCasos.swift; sourceTree = "<group>"; };
+		7EF127D52BE2D58700698188 /* ListTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTile.swift; sourceTree = "<group>"; };
+		7EF127D72BE2DAFC00698188 /* LocationUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUser.swift; sourceTree = "<group>"; };
+		7EF127D92BE2DCCC00698188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7EF127DA2BE2FC3C00698188 /* DrawerContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerContent.swift; sourceTree = "<group>"; };
+		7EF127DC2BE2FCAB00698188 /* NavigationDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDrawer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,10 @@
 		7EF127AE2BE2C84C00698188 /* abogados */ = {
 			isa = PBXGroup;
 			children = (
+				7EF127D92BE2DCCC00698188 /* Info.plist */,
+				7EF127C82BE2CC4E00698188 /* Extensions */,
+				7EF127BE2BE2CA4500698188 /* Widgets */,
+				7EF127BD2BE2CA3300698188 /* Views */,
 				7EF127AF2BE2C84C00698188 /* abogadosApp.swift */,
 				7EF127B12BE2C84C00698188 /* ContentView.swift */,
 				7EF127B32BE2C84D00698188 /* Assets.xcassets */,
@@ -65,6 +98,49 @@
 				7EF127B62BE2C84D00698188 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EF127BD2BE2CA3300698188 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EF127BF2BE2CA5B00698188 /* Tabs */,
+				7EF127C02BE2CA6B00698188 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7EF127BE2BE2CA4500698188 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				7EF127D12BE2CD2100698188 /* Buscar.swift */,
+				7EF127D32BE2CFDF00698188 /* TarjetaCasos.swift */,
+				7EF127D52BE2D58700698188 /* ListTile.swift */,
+				7EF127DA2BE2FC3C00698188 /* DrawerContent.swift */,
+				7EF127DC2BE2FCAB00698188 /* NavigationDrawer.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		7EF127BF2BE2CA5B00698188 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				7EF127C22BE2CAA000698188 /* HomeTab.swift */,
+				7EF127C42BE2CAAA00698188 /* MapsTab.swift */,
+				7EF127C62BE2CAB200698188 /* AccountTab.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		7EF127C82BE2CC4E00698188 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7EF127C92BE2CC5E00698188 /* Color.swift */,
+				7EF127CB2BE2CC8C00698188 /* Placeholder.swift */,
+				7EF127CD2BE2CCA900698188 /* ScreenSize.swift */,
+				7EF127CF2BE2CCDE00698188 /* Underline.swift */,
+				7EF127D72BE2DAFC00698188 /* LocationUser.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +213,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF127C32BE2CAA000698188 /* HomeTab.swift in Sources */,
+				7EF127D42BE2CFDF00698188 /* TarjetaCasos.swift in Sources */,
+				7EF127CE2BE2CCA900698188 /* ScreenSize.swift in Sources */,
+				7EF127C72BE2CAB200698188 /* AccountTab.swift in Sources */,
+				7EF127D22BE2CD2100698188 /* Buscar.swift in Sources */,
+				7EF127CA2BE2CC5E00698188 /* Color.swift in Sources */,
+				7EF127DD2BE2FCAB00698188 /* NavigationDrawer.swift in Sources */,
+				7EF127D02BE2CCDE00698188 /* Underline.swift in Sources */,
+				7EF127D82BE2DAFC00698188 /* LocationUser.swift in Sources */,
+				7EF127C12BE2CA6B00698188 /* HomeView.swift in Sources */,
+				7EF127C52BE2CAAA00698188 /* MapsTab.swift in Sources */,
 				7EF127B22BE2C84C00698188 /* ContentView.swift in Sources */,
+				7EF127DB2BE2FC3C00698188 /* DrawerContent.swift in Sources */,
 				7EF127B02BE2C84C00698188 /* abogadosApp.swift in Sources */,
+				7EF127CC2BE2CC8C00698188 /* Placeholder.swift in Sources */,
+				7EF127D62BE2D58700698188 /* ListTile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +365,9 @@
 				DEVELOPMENT_TEAM = VP5MJD3LR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = abogados/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Queremos saber tu ubicación para una mejor experiencia";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Queremos usar tu ubicación";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +397,9 @@
 				DEVELOPMENT_TEAM = VP5MJD3LR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = abogados/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Queremos saber tu ubicación para una mejor experiencia";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Queremos usar tu ubicación";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
